@@ -1,6 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 
+
 def kk_hesapla():
     v_batan = int(v_batan_tf.get())
     d_sivi = int(d_sivi_tf.get())
@@ -66,7 +67,7 @@ v_batan_tf.grid(row=4, column=2, pady=5)
 frame3 = Frame(
     frame
 )
-frame3.grid(row=5, columsnpan=3, pady=10)
+frame3.grid(row=5, columnspan=3, pady=10)
 
 hesapla_btn = Button(
     frame3,
