@@ -74,3 +74,13 @@ hesapla_btn = Button(
     command=kk_hesapla
 )
 hesapla_btn.pack(side=LEFT)
+
+
+exit_btn = Button(
+    frame3,
+    text= 'cikis',
+    command=lambda:ws.destory(
+)
+exit_btn.pack(side=RIGHT)
+
+ws.mainloo()
