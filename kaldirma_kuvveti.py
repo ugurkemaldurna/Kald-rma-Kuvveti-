@@ -20,7 +20,7 @@ var = IntVar()
 
 frame = Frame(
     ws,
-    padx=10
+    padx=10,
     pady=10
 )
 frame.pack(expand=True)
@@ -28,11 +28,11 @@ frame.pack(expand=True)
 
 v_batan_label = Label(
     frame,
-    text="V(batan):"
+    text="V(batan): "
 )
 v_batan_label.grid(row=1, column=1)
 
-d_sivi_label=Label(
+d_sivi_label = Label(
     frame,
     text="d(sivi) :"
 )
@@ -79,8 +79,8 @@ hesapla_btn.pack(side=LEFT)
 exit_btn = Button(
     frame3,
     text= 'cikis',
-    command=lambda:ws.destory(
+    command=lambda:ws.destory()
 )
 exit_btn.pack(side=RIGHT)
 
-ws.mainloo()
+ws.mainloop()
