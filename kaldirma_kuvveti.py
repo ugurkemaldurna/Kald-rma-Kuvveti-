@@ -3,9 +3,9 @@ from tkinter import messagebox
 
 
 def kk_hesapla():
-    v_batan = int(v_batan_tf.get())
-    d_sivi = int(d_sivi_tf.get())
-    g = int(yercekimi_input.get())
+    v_batan = float(v_batan_tf.get())
+    d_sivi = float(d_sivi_tf.get())
+    g = float(yercekimi_input.get())
     kaldirma_kuvveti = (v_batan*d_sivi*g)
     kaldirma_kuvveti = round(kaldirma_kuvveti, 1)
 
