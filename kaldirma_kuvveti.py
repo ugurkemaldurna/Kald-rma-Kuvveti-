@@ -24,10 +24,39 @@ frame = Frame(
     pady=10
 )
 frame.pack(expand=True)
+
+
 v_batan_label = Label(
     frame,
     text="V(batan):"
-v_batan_labal.grid(row=1, colume=1)
+)
+v_batan_label.grid(row=1, column=1)
+
 d_sivi_label=Label(
-    frane,
+    frame,
     text="d(sivi) :"
+)
+d_sivi_label.grid(row=3, column=1)
+
+yercekimi_label = Label(
+    frame,
+    text="g : ",
+
+)
+yercekimi_label.grid(row=4, column=1)
+
+
+yercekimi_input = Entry(
+    frame,
+)
+yercekimi_input.grid(row=1, column=2, pady=5)
+
+d_sivi_tf = Entry(
+    frame,
+)
+d_sivi_tf.grid(row=3, column=2, pady=5)
+
+v_batan_tf = Entry(
+    frame,
+)
+v_batan_tf.grid(row=4, column=2, pady=5)
