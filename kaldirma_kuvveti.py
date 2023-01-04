@@ -60,3 +60,17 @@ v_batan_tf = Entry(
     frame,
 )
 v_batan_tf.grid(row=4, column=2, pady=5)
+
+
+
+frame3 = Frame(
+    frame
+)
+frame3.grid(row=5, columsnpan=3, pady=10)
+
+hesapla_btn = Button(
+    frame3,
+    text='Hesapla',
+    command=kk_hesapla
+)
+hesapla_btn.pack(side=LEFT)
