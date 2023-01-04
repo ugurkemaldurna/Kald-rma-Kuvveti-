@@ -74,4 +74,3 @@ hesapla_btn = Button(
     command=kk_hesapla
 )
 hesapla_btn.pack(side=LEFT)
-)
