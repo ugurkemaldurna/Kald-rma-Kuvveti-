@@ -24,4 +24,10 @@ frame = Frame(
     pady=10
 )
 frame.pack(expand=True)
-
+v_batan_label = Label(
+    frame,
+    text="V(batan):"
+v_batan_labal.grid(row=1, colume=1)
+d_sivi_label=Label(
+    frane,
+    text="d(sivi) :"
